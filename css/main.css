@@ -70,3 +70,35 @@ html { font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Origin
 .ft-discription__commonMessage > ul:nth-of-type(1) li { font-size: 16px; position: relative; color: #808080; }
 
 .ft-discription__commonMessage > ul:nth-of-type(1) li::before { content: "・"; display: block; position: absolute; left: -16px; }
+
+.re-explainText { text-align: center; }
+
+.re-explainText__img { width: 96px; height: 96px; margin: auto; }
+
+.re-explainText__title span { display: block; }
+
+.re-explainText__tag { display: -ms-flexbox; display: flex; -ms-flex-flow: row wrap; flex-flow: row wrap; -ms-flex-pack: end; justify-content: flex-end; }
+
+.re-explainText__tag span { margin: 0px 0px 1px 5px; background-color: #70D4D4; color: #FFF; font-size: 12px; padding: 6px 10px; }
+
+.re-explainText__btn { border-radius: 8px; width: 90%; margin: 0 auto; text-align: center; color: #333333; padding: 12px 0px; font-size: 18px; }
+
+.re-recommend { background-color: #FCF9E8; padding: 0 12px; }
+
+.re-recommend__knowothers { color: #4F5756; font-size: 16px; }
+
+.re-recommend__knowothers__title { display: -ms-flexbox; display: flex; padding: 20px 0px; }
+
+.re-recommend__knowothers__title img { width: 24px; height: 24px; margin-right: 8px; }
+
+.re-recommend__knowothers__list li { display: -ms-flexbox; display: flex; -ms-flex-align: center; align-items: center; position: relative; padding: 16px 12px; background: #FFF; border-bottom: solid 1px rgba(0, 0, 0, 0.1); }
+
+.re-recommend__knowothers__list li img { width: 48px; height: 48px; margin-right: 12px; }
+
+.re-recommend__knowothers__list__text { display: -ms-flexbox; display: flex; -ms-flex-direction: column; flex-direction: column; max-width: 250px; }
+
+.re-recommend__knowothers__list__star { position: absolute; right: 0; top: 0px; bottom: 0px; margin: auto; width: 22px; height: 22px; }
+
+.re-recommend__knowothers__fortune__tag { display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+
+.re-recommend__knowothers__fortune__tag span { margin: 0.47em; background-color: #70D4D4; color: #FFF; font-size: 12px; padding: 6px 10px; }
